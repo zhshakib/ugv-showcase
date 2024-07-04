@@ -15,5 +15,7 @@ export default defineNuxtConfig({
       'Poppins': [400, 500, 600, 700],
       'Raleway': [400, 500, 600, 700],
     }
-  }], "@nuxt/image", "@nuxt/icon"]
+  }], "@nuxt/image", "@nuxt/icon"],
+
+  compatibilityDate: "2024-07-04"
 })
