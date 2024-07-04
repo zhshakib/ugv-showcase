@@ -10,7 +10,7 @@ defineProps({
 <template>
   <div class="rounded-lg bg-base-300 w-full shadow-xl my-2">
     <h2
-      class="text-2xl font-bold text-center pt-2 text-orange-500 flex items-center justify-center"
+      class="text-3xl font-bold text-center py-2 text-orange-500 flex items-center justify-center"
     >
       <Icon class="mr-2" name="mdi:book-open-page-variant"></Icon>
       {{ routine.name }}
