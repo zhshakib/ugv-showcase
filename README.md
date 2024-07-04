@@ -1,75 +1,25 @@
-# Nuxt 3 Minimal Starter
+# Semester Routine Website
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+This is a routine website which is based on my University Class routine of my Current Semester.
 
-## Setup
+## what is the purpose of this website?
 
-Make sure to install the dependencies:
+As we all know our university website sucks everytime. There is no full form fo teacher's name. We have to take a seat with 10 classmates and see our routine. Its so much boring and hilarious. So i came up with this idea to make a routine website where we can see our routine interactively and its nice.
 
-```bash
-# npm
-npm install
+## How to use this website?
 
-# pnpm
-pnpm install
+You guys can clone this `repo` and update the `public/Routine.json` file. Then you can visit this website and see your routine.
 
-# yarn
-yarn install
+## what is next?
 
-# bun
-bun install
-```
+I'm going to keep this website simple also start working on Mobile App soon. Any contribution is welcome.
 
-## Development Server
+## How to contribute?
 
-Start the development server on `http://localhost:3000`:
+You can contribute by [creating an issue](https://github.com/ZH-FAMILY/semester-routine/issues) or [pull request](https://github.com/ZH-FAMILY/semester-routine/pulls).
 
-```bash
-# npm
-npm run dev
+## How to contact me?
 
-# pnpm
-pnpm run dev
+You can contact me on [Github](https://github.com/zhshakib) or [chat](https://m.me/noobzh)
 
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+# Thank you
