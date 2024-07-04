@@ -64,6 +64,27 @@
           "course_Code": "MAT-103"
         }
       ]
+    },
+    {
+      "name": "friday",
+      "items": [
+        {
+          "name": "DSA - Theory",
+          "stat_time": "10:00 AM",
+          "end_time": "11:00 AM",
+          "classroom": "LH 202",
+          "teacher": "Rony Bakshi",
+          "course_Code": "CSE-103"
+        },
+        {
+          "name": "English",
+          "stat_time": "11:00 AM",
+          "end_time": "12:00 AM",
+          "classroom": "LH 203",
+          "teacher": "Monika Bakshi",
+          "course_Code": "MAT-103"
+        }
+      ]
     }
   ]
 }

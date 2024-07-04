@@ -1,8 +1,8 @@
 body {
-    @apply bg-black text-white;
+    @apply text-white min-h-screen bg-gray-700;
     font-family: Poppins, sans-serif;
     font-weight: 400;
-    @apply h-screen text-sm;
+    @apply text-sm;
 }
 
 @tailwind base;

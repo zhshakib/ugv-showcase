@@ -1,7 +1,7 @@
 <template>
-  <Header/>
-  <main class="px-10 py-5 h-screen ">
+  <Header />
+  <main class="px-3 py-5">
     <slot />
   </main>
-  <Footer/>
+  <Footer />
 </template>
