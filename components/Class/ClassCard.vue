@@ -8,7 +8,7 @@ defineProps({
 </script>
 
 <template>
-  <div class="rounded-lg bg-base-300 w-full shadow-xl my-2">
+  <div class="rounded-lg bg-base-300 w-full md:w-96 md:mx-2 shadow-xl my-2">
     <h2
       class="text-3xl font-bold text-center py-2 text-orange-500 flex items-center justify-center"
     >

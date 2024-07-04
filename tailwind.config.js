@@ -9,7 +9,9 @@ module.exports = {
     "./error.vue",
   ],
   theme: {
-    extend: {},
+    screens: {
+      md: "640px",
+    },
   },
   plugins: [require("daisyui")],
 };

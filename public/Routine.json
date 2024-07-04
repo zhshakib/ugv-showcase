@@ -83,6 +83,22 @@
           "classroom": "LH 203",
           "teacher": "Monika Bakshi",
           "course_Code": "MAT-103"
+        },
+        {
+          "name": "English",
+          "stat_time": "11:00 AM",
+          "end_time": "12:00 AM",
+          "classroom": "LH 203",
+          "teacher": "Monika Bakshi",
+          "course_Code": "MAT-103"
+        },
+        {
+          "name": "English",
+          "stat_time": "11:00 AM",
+          "end_time": "12:00 AM",
+          "classroom": "LH 203",
+          "teacher": "Monika Bakshi",
+          "course_Code": "MAT-103"
         }
       ]
     }

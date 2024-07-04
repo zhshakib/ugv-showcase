@@ -30,7 +30,7 @@ onMounted(async () => {
   <div class="h-1 w-1/2 mx-auto bg-white mb-2"></div>
 
   <div
-    class="flex flex-col md:flex-row md:flex-wrap md:justify-around items-center justify-center"
+    class="flex flex-col md:flex-row md:flex-wrap md:justify-center items-center justify-center"
   >
     <ClassCard v-for="days in routine" :routine="days" />
   </div>

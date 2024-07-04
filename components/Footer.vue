@@ -3,9 +3,7 @@ const year = new Date().getFullYear();
 </script>
 
 <template>
-  <footer
-    class="px-10 py-5 bg-black text-white border-t-2 fixed bottom-0 w-full"
-  >
+  <footer class="px-10 py-5 bg-black text-white border-t-2 w-full">
     <p class="text-center">
       Made with ❤ by
       <a
