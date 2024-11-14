@@ -1,8 +1,8 @@
 import axios from 'axios'
 
-export async function fetchRoutine () {
+export async function fetchProjects() {
     try {
-        const res = await axios.get('Routine.json')
+        const res = await axios.get('Projects.json')
         return res.data
     } catch (error) {
         console.log(error)

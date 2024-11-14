@@ -1,0 +1,47 @@
+{
+  "Name": "Projects Of UGV",
+  "projects": [
+    {
+      "title": "Awesome Next Js Ecommerce",
+      "author": "zhshakib",
+      "url": "https://github.com/zhshakib/awesome-next-js-ecommerce",
+      "description": "lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, provident. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, provident. ",
+      "tech": [
+        "Next.js",
+        "Tailwind CSS",
+        "TypeScript",
+        "React",
+        "Stripe",
+        "Firebase",
+        "Framer Motion"
+      ]
+    },
+    {
+      "title": "Awesome Cooking Website",
+      "author": "Jarin Rahman Khan",
+      "url": "https://github.com/jarin-khan/awesome-cooking-site",
+      "description": "lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, provident. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, provident. ",
+      "tech": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Bootstrap"
+      ]
+    },
+    {
+      "title": "Django NLP Chatbot",
+      "author": "Sumaiya Jahan",
+      "url": "https://github.com/sumaiya-jahan/django-nlp-chatbot",
+      "description": "lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, provident. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, provident. ",
+      "tech": [
+        "Django",
+        "Python",
+        "JavaScript",
+        "React",
+        "NLP",
+        "Chatbot",
+        "Firebase"
+      ]
+    }
+  ]
+}

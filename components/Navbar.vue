@@ -14,7 +14,7 @@
 
 <style>
 .customizeNav {
-    max-width: 80%;
+    width: 80%;
     margin: 0px auto;
     padding: 1rem 1rem;
     display: flex;
