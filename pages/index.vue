@@ -23,6 +23,10 @@ watch(searchQuery, async (newQuery: string) => {
 </script>
 
 <template>
+
+  <Head>
+    <Title>Home | UGV ShowCase</Title>
+  </Head>
   <header class="bg-base-100 mb-5">
     <Navbar @searchQuery="handleSearchQuery" />
   </header>
