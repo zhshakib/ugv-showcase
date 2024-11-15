@@ -5,11 +5,12 @@ body {
     @apply text-sm;
 }
 
-footer{
+footer {
     @apply md:bottom-0;
 }
-main{
-    min-height: 85vh;
+
+main {
+    min-height: 100vh;
 }
 
 @tailwind base;
