@@ -11,6 +11,7 @@ module.exports = {
   theme: {
     screens: {
       md: "640px",
+      lg: "1024px",
     },
   },
   plugins: [require("daisyui")],

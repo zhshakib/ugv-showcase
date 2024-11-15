@@ -8,20 +8,12 @@ defineProps({
 </script>
 
 <template>
-  <div class="m-2">
-    <div>
-      <h2 class="text-2xl font-medium text-center mb-2">
-        {{ project.title }}
-      </h2>
+  <div class="rounded-lg bg-base-300 w-full md:full md:mx-2 shadow-xl my-2">
+    <div class="card-body items-center text-center">
+      <h2 class="card-title mb-2 text-justify">{{ project.title }}</h2>
       <p>{{ project.description }}</p>
-    </div>
-    <h3>Author: {{ project.author }}</h3>
-    <div class="flex flex-wrap justify-center">
-      <a v-for="tech in project.tech" :key="tech" :href="project.url" class="text-sm mx-2">{{ tech }}</a>
-    </div>
-    <!-- a link to the project -->
-    <div class="flex justify-center">
-      <a :href="project.url" class="text-sm mx-2">View Project</a>
+      <div class="badge badge-primary badge-outline">Tag 1</div>
+      <div class="badge badge-secondary badge-outline">Tag 2</div>
     </div>
   </div>
 </template>

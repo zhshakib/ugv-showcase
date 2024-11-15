@@ -26,14 +26,14 @@ watch(searchQuery, async (newQuery: string) => {
   <header class="bg-base-100 mb-5">
     <Navbar @searchQuery="handleSearchQuery" />
   </header>
-  <div class="container mx-auto">
+  <div class="w-full mx-auto">
     <div>
       <h2 class="text-2xl font-medium text-center mb-2">
         Projects
         <hr class="border-2 border-orange-500 w-1/3 mx-auto mt-2">
       </h2>
     </div>
-    <div class="flex flex-col md:flex-row md:flex-wrap md:justify-center items-center justify-center">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-5 gap-5">
       <ClassCard v-for="project in projects" :project="project" />
     </div>
   </div>
