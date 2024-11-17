@@ -6,7 +6,10 @@ const getProjects = async (req, res) => {
             console.log(err);
             res.status(500).send({ message: "Database Error" });
         } else {
-            res.status(200).json(rows);
+            rows.forEach(row => {
+                row.tech = row.tech.split(',');
+            });
+            res.status(200).send(rows);
         }
     });
 }

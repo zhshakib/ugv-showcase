@@ -6,9 +6,6 @@ const props = defineProps({
   },
 });
 
-// Making the props tech as an array!
-const projectTech = props.project.tech.split(',');
-
 </script>
 
 <template>
@@ -20,7 +17,7 @@ const projectTech = props.project.tech.split(',');
       </h3>
       <p class="text-sm mb-2 ">{{ project.description }}</p>
       <div class="flex flex-wrap gap-3 mt-2">
-        <div v-for="tech in projectTech"
+        <div v-for="tech in project.tech"
           class="badge bg-base-200 text-orange-400 hover:bg-orange-200 hover:text-black badge-outline px-4 py-2">
           {{ tech }}
         </div>

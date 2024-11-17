@@ -1,6 +1,21 @@
 <script setup lang="ts">
 import { fetchProjects } from "~/store/projects";
 const projects: any = ref([]);
+
+const filteredProjects = computed(() => {
+  return projects.value.filter((project: any) => {
+    // if searchQuery is empty, return all projects
+    if (searchQuery.value === '') {
+      return true;
+    } else {
+      // projects that mathch the search query with tech tags
+      return project.tech.some((tech: string) => {
+        return tech.toLowerCase().includes(searchQuery.value.toLowerCase());
+      });
+    }
+  })
+})
+
 const searchQuery = ref('');
 
 onMounted(async () => {
@@ -11,14 +26,12 @@ function handleSearchQuery(newQuery: string) {
   searchQuery.value = newQuery;
 }
 
-watch(searchQuery, async (newQuery: string) => {
-  if (newQuery.length > 2) {
-    const filteredProjects = projects.value.filter((project: any) => {
-      return project.title.toLowerCase().includes(newQuery.toLowerCase());
-    })
-    projects.value = filteredProjects
-  } else
+watch(searchQuery, async () => {
+  if (searchQuery.value === '') {
     projects.value = await fetchProjects();
+  } else {
+    projects.value = filteredProjects.value;
+  }
 });
 
 </script>
