@@ -5,7 +5,6 @@ const searchQuery = ref('');
 
 onMounted(async () => {
   projects.value = await fetchProjects();
-  projects.value = projects.value?.projects
 });
 
 function handleSearchQuery(newQuery: string) {
@@ -13,11 +12,13 @@ function handleSearchQuery(newQuery: string) {
 }
 
 watch(searchQuery, async (newQuery: string) => {
-  const filteredProjects = await fetchProjects();
-  filteredProjects.value = filteredProjects?.projects.filter((project: any) => {
-    return project.tech.some((tech: string) => tech.toLowerCase().includes(newQuery.toLowerCase()));
-  });
-  projects.value = filteredProjects.value;
+  if (newQuery.length > 2) {
+    const filteredProjects = projects.value.filter((project: any) => {
+      return project.title.toLowerCase().includes(newQuery.toLowerCase());
+    })
+    projects.value = filteredProjects
+  } else
+    projects.value = await fetchProjects();
 });
 
 </script>
